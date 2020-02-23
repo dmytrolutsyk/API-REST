@@ -1,7 +1,6 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   const Traitement = sequelize.define('Traitement', {
-    USERS_idUSERS: DataTypes.INTEGER,
     Title: DataTypes.STRING,
     Content: DataTypes.STRING,
     Attachement: DataTypes.STRING
